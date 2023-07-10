@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!--Fonts import-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Results summary component</title>
+  <!--Estilos css-->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="text-lg font-hanken-grotesk h-screen bg-white lg:grid lg:place-content-center">
+  <!--Content part-->
+  <main
+    class="grid lg:grid-flow-col lg:grid-cols-2 lg:shadow-2xl lg:shadow-cobalt-blue-alpha lg:w-[740px] lg:h-[516px] lg:rounded-[35px]">
+    <!--Resume result part-->
+    <section
+      class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue text-light-lavender text-center rounded-bl-[35px] h-[345px] pt-8 rounded-br-[35px] px-16 lg:h-full lg:rounded-[35px] lg:w-[368px]">
+      <h5 class="lg:text-2xl">Your Result</h5>
+      <div
+        class="rounded-full bg-gradient-to-b from-violet-blue to-cobalt-blue-alpha h-[139px] w-[139px] mx-auto my-6 grid place-content-center lg:h-[200px] lg:w-[200px] lg:my-10">
+        <span class="text-6xl text-white">76</span>
+        <span class="block text-sm">of 100</span>
+      </div>
+      <p class="text-sm normal-case lg:text-lg">
+        <span class="block text-white text-2xl lg:mb-3">Great</span>
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+    <!--Summary part-->
+    <section id="summary" class="p-7 text-dark-gray-blue h-[455px] lg:pt-9">
+
+    </section>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
+<!--
+Your Result
+  76
+  of 100
+
+  Great
+  You scored higher than 65% of the people who have taken these tests.
+  
+  Summary
+
+  Reaction
+  80 / 100
+
+  Memory
+  92 / 100
+
+  Verbal
+  61 / 100
+
+  Visual
+  72 / 100
+
+  Continue-->
